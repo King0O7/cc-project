@@ -1,0 +1,82 @@
+/* Banner Area*/
+  
+.banner-area-post{
+    width: 100%;
+    height:100%;
+    background:url("../images/banner.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.banner-area-details{
+   padding-top: 165px;
+    padding-bottom: 125px;
+}  
+.banner-desc h2{
+    color:white;
+    font-size:58px;
+}
+.banner-desc p{
+    color:white;
+    font-size: 18px;
+    
+}
+.banner-button .btnn-1{
+    background-color: rgb(8,106,216);
+    color:white;
+    padding:9px 35px;
+    border-radius: 5px;
+    font-size:20px;
+}
+.banner-button .btnn-1:hover{
+    background-color:#d2a98e;
+    color:white;
+    padding:9px 35px;
+    border-radius: 5px;
+    font-size:20px;
+    transition:0.3s ease-in;
+    text-decoration: none;
+    outline:none;    
+}
+.banner-button{
+    display:flex;
+}
+.play-icon{
+    background:#d2a98e;
+border-radius: 50%;
+width: 47px;
+height: 47px;
+}
+.play-icon:hover{
+    background:rgb(8,106,216);
+    transition:0.3s ease-in;
+    cursor:pointer;
+}
+.play-icon i{
+    position: relative;
+top: 26%;
+left: 39%;
+font-size: 18px;
+color: white;
+}
+.available-tools{
+    display:flex;
+    padding: 0px 78px;
+}
+.wind-mob-iconn i{
+    font-size: 25px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .banner-area-details  {
+        padding-left: 10px;
+        padding-top:160px;
+        padding-bottom: 50px;
+       }
+       .banner-area-post{
+        width: 50%;
+        height:50%;
+        background:url("../images/banner.jpg") center center no-repeat;
+        background-size: cover;
+    }
+    
+}

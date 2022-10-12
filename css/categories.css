@@ -1,0 +1,181 @@
+ /*Categoeies-area*/
+ .categories-area-title p{
+    font-size:17px;
+    color:rgb(8,106,216);
+    font-weight: 700;
+}
+.categories-area-title h4{
+    font-size:38px;
+    font-weight: 700;
+}
+.categories-main{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-radius: 5px;
+}
+.c-1{
+    height: 71px;
+    width: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    border-radius: 51%;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    color: rgb(8,106,216);
+    font-size: 34px;
+}
+.c-1:hover{
+    height: 71px;
+    width: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    border-radius: 51%;
+    box-sizing: border-box;
+    background-color: rgb(8,106,216);
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    color: white;
+    font-size: 34px;
+    transition: 0.3s ease-out;
+}
+
+.category-1-desc h5{
+    font-size:21px;
+    font-weight: 650;
+}
+.single-line div{
+    font-size:17px;
+    
+} 
+.single-line span{
+    color:black;
+    font-weight: 650;
+}
+.single-line span:hover{
+    color:rgb(8,106,216);
+    font-weight: 650;
+    transition: 0.3s ease-out;
+    cursor:pointer;
+}
+.kuch-bhi{
+    display:flex;
+}
+
+@media (max-width:768px) {
+    .kuch-bhi{
+        display:block;
+        justify-content: center;
+        text-align: center;
+    }
+    .category-1-img .c-1{
+        height: 71px;
+        width: 71px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 11px;
+        border-radius: 51%;
+        box-sizing: border-box;
+        background-color: white;
+        margin:auto;
+        color: rgb(8,106,216);
+        font-size: 34px; 
+    }
+    .category-1-img .c-1:hover{
+        height: 71px;
+    width: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    border-radius: 51%;
+    box-sizing: border-box;
+    background-color: rgb(8,106,216);
+    color: white;
+    font-size: 34px;
+    transition: 0.3s ease-out;
+    }
+    .cg-1{
+        padding-top:17px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+    .categories-area-title p{
+        font-size:25px;
+    }
+    .categories-area-title h4{
+        font-size:45px;
+    }
+    .kuch-bhi{
+        display:block;
+        justify-content: center;
+        text-align: center;
+    }
+    .category-1-desc{
+        padding-top:10px;
+    }
+    .category-1-img .c-1{
+        height: 71px;
+        width: 71px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 11px;
+        border-radius: 51%;
+        box-sizing: border-box;
+        background-color: white;
+        margin:auto;
+        color: rgb(8,106,216);
+        font-size: 34px; 
+    }
+    .category-1-img .c-1:hover{
+        height: 71px;
+    width: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    border-radius: 51%;
+    box-sizing: border-box;
+    background-color: rgb(8,106,216);
+    color: white;
+    font-size: 34px;
+    transition: 0.3s ease-out;
+    }
+    .cg-1{
+        padding-top:17px;
+    }
+}
+
+/*footer area*/
+.page-footer{
+    background-color: rgb(1,21,45);
+}
+.Basic-Sites h4{
+    color:white;
+    
+}
+.Basic-Sites ul li p{
+    color:white;
+}
+
+.Basic-Sites ul li a{
+    text-decoration: none;
+}
+.Basic-Sites li a:hover{
+    
+    color:rgb(8,106,216);
+    transition: 0.3s ease-in;
+}
+.Basic-Sites ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    line-height: 30px;
+}

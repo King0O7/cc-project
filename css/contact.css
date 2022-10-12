@@ -1,0 +1,210 @@
+.body{
+    padding: 0;
+    margin:0;
+    outline:none;
+    }
+    
+    
+    /*Top Header Area*/
+    
+    .top-header-area{
+        background-color:rgb(8,106,216);
+      }
+      .details{
+        display: flex;
+      }
+      .detail-1 i{
+        color:white;
+      }
+      .detail-1 span{
+        color:white;
+      }
+      .detail-2 i{
+        color:white;
+      }
+      .detail-2 span{
+        color:white;
+      }
+      .detail-3 i{
+        color:white;
+      }
+      .detail-3 span{
+        color:white;
+      }
+      .social-icons{
+        justify-content: space-between;
+        color:white;
+        font-size:16px;
+      }
+      .ic-1:hover{
+        color:black;
+        transition: 0.3s ease-out;
+      }
+      
+      @media (max-width:768px) {
+        .top-header-area{
+            display:none;
+        }
+      }
+      @media (max-width:992px) {
+        .top-header-area{
+            display:none;
+        }
+      }
+      
+    
+    /*Navigation BAr*/
+    .other1{
+        padding:21px 14px;
+      }
+    
+      
+      .other-desc a{
+        font-size: 19px;
+        color:white;
+          
+          font-weight: 500;
+      }
+      .get-in-touch button{
+        color:white;
+        background-color:blue;
+        cursor:pointer;
+        font-size:13px;
+        border-radius: 6px;
+        padding:13px 29px;
+        border:2px solid blue;
+        outline:none;
+        font-weight: 650;
+      }
+      .get-in-touch button:hover{
+        color:white;
+        background-color: #d2a98e;
+        border:2px solid #d2a98e;
+        transition: 0.4s ease-out; 
+      }
+      .other-desc .hey{
+        background-color: blue;
+      }
+      .hey-1{
+        color:white;
+      }
+      .hey-1:hover{
+        color:black;
+        transition: 0.2s ease-in;
+        background-color: white;
+      }
+
+      /* Contact Area*/
+
+.contact-img img{
+  width: 100%;
+}
+
+
+.contact-area-title h6{
+color:rgb(8,106,216);
+font-weight: 650;
+}
+#fname
+{
+  border: 0;
+  outline: 0;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  background: rgb(250,250,250);
+}
+
+
+
+#email{
+  border: 0;
+  outline: 0;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  background: rgb(250,250,250);
+}
+
+
+
+#num{
+  border: 0;
+  outline: 0;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  background: rgb(250,250,250);
+}
+
+
+
+#sub{
+  border: 0;
+  outline: 0;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  background: rgb(250,250,250);
+}
+
+
+#comment{
+  border: 0;
+  outline: 0;
+  padding: 6px 5px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  background: rgb(250,250,250);
+  resize:none;
+  width:100%;
+}
+
+
+
+#req-btn{
+color:white;
+background-color:rgb(8,106,216);
+border:0;
+outline:0;
+padding:14px 20px;
+font-size:20px;
+cursor:pointer;
+}
+      
+      /*footer-area*/
+      .page-footer{
+        background-color: rgb(1,21,45);
+    }
+    .Basic-Sites h4{
+        color:white;
+        
+    }
+    .Basic-Sites ul li p{
+        color:white;
+    }
+    
+    .Basic-Sites ul li a{
+        text-decoration: none;
+    }
+    .Basic-Sites li a:hover{
+        
+        color:rgb(8,106,216);
+        transition: 0.3s ease-in;
+    }
+    .Basic-Sites ul{
+        list-style: none;
+        padding:0;
+        margin:0;
+        line-height: 30px;
+    }      
